@@ -68,7 +68,7 @@ var App = (function (_React$Component) {
 						'Phonetic'
 					),
 					React.createElement(Transcriber, { id: 'phoneticTrans',
-						dataPath: '/cmudict.json',
+						dataPath: './cmudict.json',
 						textStart: '🎤 Begin Phonetic Transcription',
 						wrapUnknown: '<%s>',
 						onTranscription: this.onTranscription.bind(this, 'phonetic') })
@@ -83,7 +83,7 @@ var App = (function (_React$Component) {
 					),
 					React.createElement(Transcriber, {
 						id: 'twitchTrans',
-						dataPath: '/twitchface.json',
+						dataPath: './twitchface.json',
 						textStart: '🎤 Begin Twitch Emoji Transcription',
 						wrapTokens: '<img src=\'%s\'>',
 						onTranscription: this.onTranscription.bind(this, 'twitch') })
