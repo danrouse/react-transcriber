@@ -5,7 +5,7 @@ Speech transcription component for React. Allows for simple speech to text, and 
 
 ## Demo & Examples
 
-Live demo: [kremonte.github.io/react-transcriber](http://kremonte.github.io/react-transcriber/)
+Live demo: [danrouse.github.io/react-transcriber](http://danrouse.github.io/react-transcriber/)
 
 To build the examples locally, run:
 
